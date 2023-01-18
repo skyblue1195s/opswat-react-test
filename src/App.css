@@ -1,0 +1,23 @@
+
+.logo {
+  margin: 16px;
+  background-image: url('./logo192.png');
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ant-form-item-explain-error::first-letter {
+  text-transform: capitalize;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+
+.ant-btn-primary[disabled] {
+  color: #fff;
+}
